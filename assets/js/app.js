@@ -9,7 +9,7 @@ $(function(){
       // データを通信するところ ex:iTunesのAPIのサイトに行ってこぴってくる。’エンドポイント’
       url:'https://itunes.apple.com/search', 
       type: 'GET', //get 送信か、post送信か
-      dataType: 'jsonp', //検索結果の形式
+      dataType: 'jsonp', //検索結果の形式 連想配列として取得される
       data: {
 
         term: 'あいみょん',
